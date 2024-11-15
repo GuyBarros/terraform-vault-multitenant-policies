@@ -3,7 +3,7 @@ variable "identifier" {
     default = "guy@hashicorp.com"
 }
 variable "jwt_validation_pubkeys" {
-    description = "public key for offline jwt configuration"
+    description = "public key for offline jwt configuration, you can use JWT.io to generate the token and signing public keys"
     type = list(string)
     default = ["-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApxMkNXtG6GwTFzzny+af\nDVfrQdL1MMzMgxcjGOfMax7Go5+wf+iUh09Ep4EKyJQxwOMtZEMNNH11fKUcnTj/\nLEy92sVFdPLP4/+R0//DDdnmQo8RkYE6J1kSPrl1H44RBsuul23+sk29oruWb3bm\nydTpzfVeKUwy3Rzif82wbvA0ghP2sJ3eeJdI1HGDbYscPf+pmBhfcfuaIKfbcMcX\neaO18cIkiNz6xCa+4edN3jsqFSrLkssGl7ywI6phMO5qiAjElEpEsrKMEfpZwocI\nnU3qpYvcmHTK4z9Ra25DTGZtAdGDRT5cbMwyPlO9M0yct7BBJ8/7dAXy6PlqI7Mo\n5QIDAQAB\n-----END PUBLIC KEY-----"]
 
