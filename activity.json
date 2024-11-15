@@ -1,0 +1,916 @@
+{
+  "request_id": "2589dd71-eaa2-fade-daab-0792b32b134f",
+  "lease_id": "",
+  "lease_duration": 0,
+  "renewable": false,
+  "data": {
+    "by_namespace": [
+      {
+        "counts": {
+          "clients": 5,
+          "distinct_entities": 4,
+          "entity_clients": 4,
+          "non_entity_clients": 1,
+          "non_entity_tokens": 1,
+          "secret_syncs": 0
+        },
+        "mounts": [
+          {
+            "counts": {
+              "clients": 2,
+              "distinct_entities": 1,
+              "entity_clients": 1,
+              "non_entity_clients": 1,
+              "non_entity_tokens": 1,
+              "secret_syncs": 0
+            },
+            "mount_path": "auth/token/"
+          },
+          {
+            "counts": {
+              "clients": 2,
+              "distinct_entities": 2,
+              "entity_clients": 2,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mount_path": "auth/userpass/"
+          },
+          {
+            "counts": {
+              "clients": 1,
+              "distinct_entities": 1,
+              "entity_clients": 1,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mount_path": "auth/okta_oidc/"
+          }
+        ],
+        "namespace_id": "8ByJp",
+        "namespace_path": "admin/"
+      },
+      {
+        "counts": {
+          "clients": 2,
+          "distinct_entities": 2,
+          "entity_clients": 2,
+          "non_entity_clients": 0,
+          "non_entity_tokens": 0,
+          "secret_syncs": 0
+        },
+        "mounts": [
+          {
+            "counts": {
+              "clients": 2,
+              "distinct_entities": 2,
+              "entity_clients": 2,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mount_path": "auth/userpass/"
+          }
+        ],
+        "namespace_id": "VIRE2",
+        "namespace_path": "admin/IT/"
+      },
+      {
+        "counts": {
+          "clients": 1,
+          "distinct_entities": 1,
+          "entity_clients": 1,
+          "non_entity_clients": 0,
+          "non_entity_tokens": 0,
+          "secret_syncs": 0
+        },
+        "mounts": [
+          {
+            "counts": {
+              "clients": 1,
+              "distinct_entities": 1,
+              "entity_clients": 1,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mount_path": "auth/userpass/"
+          }
+        ],
+        "namespace_id": "Mf2c3",
+        "namespace_path": "admin/Engineering/"
+      }
+    ],
+    "end_time": "2024-01-31T23:59:59Z",
+    "months": [
+      {
+        "counts": null,
+        "namespaces": null,
+        "new_clients": null,
+        "timestamp": "2023-01-01T00:00:00Z"
+      },
+      {
+        "counts": {
+          "clients": 3,
+          "distinct_entities": 0,
+          "entity_clients": 2,
+          "non_entity_clients": 1,
+          "non_entity_tokens": 0,
+          "secret_syncs": 0
+        },
+        "namespaces": [
+          {
+            "counts": {
+              "clients": 2,
+              "distinct_entities": 0,
+              "entity_clients": 1,
+              "non_entity_clients": 1,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 2,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 1,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/token/"
+              }
+            ],
+            "namespace_id": "8ByJp",
+            "namespace_path": "admin/"
+          }
+        ],
+        "new_clients": {
+          "counts": {
+            "clients": 3,
+            "distinct_entities": 0,
+            "entity_clients": 2,
+            "non_entity_clients": 1,
+            "non_entity_tokens": 0,
+            "secret_syncs": 0
+          },
+          "namespaces": [
+            {
+              "counts": {
+                "clients": 2,
+                "distinct_entities": 0,
+                "entity_clients": 1,
+                "non_entity_clients": 1,
+                "non_entity_tokens": 0,
+                "secret_syncs": 0
+              },
+              "mounts": [
+                {
+                  "counts": {
+                    "clients": 2,
+                    "distinct_entities": 0,
+                    "entity_clients": 1,
+                    "non_entity_clients": 1,
+                    "non_entity_tokens": 0,
+                    "secret_syncs": 0
+                  },
+                  "mount_path": "auth/token/"
+                }
+              ],
+              "namespace_id": "8ByJp",
+              "namespace_path": "admin/"
+            }
+          ]
+        },
+        "timestamp": "2023-02-01T00:00:00Z"
+      },
+      {
+        "counts": {
+          "clients": 5,
+          "distinct_entities": 0,
+          "entity_clients": 5,
+          "non_entity_clients": 0,
+          "non_entity_tokens": 0,
+          "secret_syncs": 0
+        },
+        "namespaces": [
+          {
+            "counts": {
+              "clients": 1,
+              "distinct_entities": 0,
+              "entity_clients": 1,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/userpass/"
+              }
+            ],
+            "namespace_id": "Mf2c3",
+            "namespace_path": "admin/Engineering/"
+          },
+          {
+            "counts": {
+              "clients": 1,
+              "distinct_entities": 0,
+              "entity_clients": 1,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/userpass/"
+              }
+            ],
+            "namespace_id": "VIRE2",
+            "namespace_path": "admin/IT/"
+          },
+          {
+            "counts": {
+              "clients": 1,
+              "distinct_entities": 0,
+              "entity_clients": 1,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/token/"
+              }
+            ],
+            "namespace_id": "8ByJp",
+            "namespace_path": "admin/"
+          }
+        ],
+        "new_clients": {
+          "counts": {
+            "clients": 3,
+            "distinct_entities": 0,
+            "entity_clients": 3,
+            "non_entity_clients": 0,
+            "non_entity_tokens": 0,
+            "secret_syncs": 0
+          },
+          "namespaces": [
+            {
+              "counts": {
+                "clients": 1,
+                "distinct_entities": 0,
+                "entity_clients": 1,
+                "non_entity_clients": 0,
+                "non_entity_tokens": 0,
+                "secret_syncs": 0
+              },
+              "mounts": [
+                {
+                  "counts": {
+                    "clients": 1,
+                    "distinct_entities": 0,
+                    "entity_clients": 1,
+                    "non_entity_clients": 0,
+                    "non_entity_tokens": 0,
+                    "secret_syncs": 0
+                  },
+                  "mount_path": "auth/userpass/"
+                }
+              ],
+              "namespace_id": "Mf2c3",
+              "namespace_path": "admin/Engineering/"
+            },
+            {
+              "counts": {
+                "clients": 1,
+                "distinct_entities": 0,
+                "entity_clients": 1,
+                "non_entity_clients": 0,
+                "non_entity_tokens": 0,
+                "secret_syncs": 0
+              },
+              "mounts": [
+                {
+                  "counts": {
+                    "clients": 1,
+                    "distinct_entities": 0,
+                    "entity_clients": 1,
+                    "non_entity_clients": 0,
+                    "non_entity_tokens": 0,
+                    "secret_syncs": 0
+                  },
+                  "mount_path": "auth/userpass/"
+                }
+              ],
+              "namespace_id": "VIRE2",
+              "namespace_path": "admin/IT/"
+            }
+          ]
+        },
+        "timestamp": "2023-03-01T00:00:00Z"
+      },
+      {
+        "counts": {
+          "clients": 3,
+          "distinct_entities": 0,
+          "entity_clients": 3,
+          "non_entity_clients": 0,
+          "non_entity_tokens": 0,
+          "secret_syncs": 0
+        },
+        "namespaces": [
+          {
+            "counts": {
+              "clients": 1,
+              "distinct_entities": 0,
+              "entity_clients": 1,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/token/"
+              }
+            ],
+            "namespace_id": "8ByJp",
+            "namespace_path": "admin/"
+          },
+          {
+            "counts": {
+              "clients": 1,
+              "distinct_entities": 0,
+              "entity_clients": 1,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/userpass/"
+              }
+            ],
+            "namespace_id": "VIRE2",
+            "namespace_path": "admin/IT/"
+          }
+        ],
+        "new_clients": {
+          "counts": {
+            "clients": 1,
+            "distinct_entities": 0,
+            "entity_clients": 1,
+            "non_entity_clients": 0,
+            "non_entity_tokens": 0,
+            "secret_syncs": 0
+          },
+          "namespaces": [
+            {
+              "counts": {
+                "clients": 1,
+                "distinct_entities": 0,
+                "entity_clients": 1,
+                "non_entity_clients": 0,
+                "non_entity_tokens": 0,
+                "secret_syncs": 0
+              },
+              "mounts": [
+                {
+                  "counts": {
+                    "clients": 1,
+                    "distinct_entities": 0,
+                    "entity_clients": 1,
+                    "non_entity_clients": 0,
+                    "non_entity_tokens": 0,
+                    "secret_syncs": 0
+                  },
+                  "mount_path": "auth/userpass/"
+                }
+              ],
+              "namespace_id": "VIRE2",
+              "namespace_path": "admin/IT/"
+            }
+          ]
+        },
+        "timestamp": "2023-04-01T00:00:00Z"
+      },
+      {
+        "counts": {
+          "clients": 6,
+          "distinct_entities": 0,
+          "entity_clients": 6,
+          "non_entity_clients": 0,
+          "non_entity_tokens": 0,
+          "secret_syncs": 0
+        },
+        "namespaces": [
+          {
+            "counts": {
+              "clients": 4,
+              "distinct_entities": 0,
+              "entity_clients": 4,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 2,
+                  "distinct_entities": 0,
+                  "entity_clients": 2,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/userpass/"
+              },
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/token/"
+              },
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/okta_oidc/"
+              }
+            ],
+            "namespace_id": "8ByJp",
+            "namespace_path": "admin/"
+          },
+          {
+            "counts": {
+              "clients": 1,
+              "distinct_entities": 0,
+              "entity_clients": 1,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/userpass/"
+              }
+            ],
+            "namespace_id": "VIRE2",
+            "namespace_path": "admin/IT/"
+          }
+        ],
+        "new_clients": {
+          "counts": {
+            "clients": 3,
+            "distinct_entities": 0,
+            "entity_clients": 3,
+            "non_entity_clients": 0,
+            "non_entity_tokens": 0,
+            "secret_syncs": 0
+          },
+          "namespaces": [
+            {
+              "counts": {
+                "clients": 3,
+                "distinct_entities": 0,
+                "entity_clients": 3,
+                "non_entity_clients": 0,
+                "non_entity_tokens": 0,
+                "secret_syncs": 0
+              },
+              "mounts": [
+                {
+                  "counts": {
+                    "clients": 2,
+                    "distinct_entities": 0,
+                    "entity_clients": 2,
+                    "non_entity_clients": 0,
+                    "non_entity_tokens": 0,
+                    "secret_syncs": 0
+                  },
+                  "mount_path": "auth/userpass/"
+                },
+                {
+                  "counts": {
+                    "clients": 1,
+                    "distinct_entities": 0,
+                    "entity_clients": 1,
+                    "non_entity_clients": 0,
+                    "non_entity_tokens": 0,
+                    "secret_syncs": 0
+                  },
+                  "mount_path": "auth/okta_oidc/"
+                }
+              ],
+              "namespace_id": "8ByJp",
+              "namespace_path": "admin/"
+            }
+          ]
+        },
+        "timestamp": "2023-05-01T00:00:00Z"
+      },
+      {
+        "counts": {
+          "clients": 2,
+          "distinct_entities": 0,
+          "entity_clients": 2,
+          "non_entity_clients": 0,
+          "non_entity_tokens": 0,
+          "secret_syncs": 0
+        },
+        "namespaces": [
+          {
+            "counts": {
+              "clients": 1,
+              "distinct_entities": 0,
+              "entity_clients": 1,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/token/"
+              }
+            ],
+            "namespace_id": "8ByJp",
+            "namespace_path": "admin/"
+          }
+        ],
+        "new_clients": {
+          "counts": null,
+          "namespaces": null
+        },
+        "timestamp": "2023-06-01T00:00:00Z"
+      },
+      {
+        "counts": {
+          "clients": 2,
+          "distinct_entities": 0,
+          "entity_clients": 2,
+          "non_entity_clients": 0,
+          "non_entity_tokens": 0,
+          "secret_syncs": 0
+        },
+        "namespaces": [
+          {
+            "counts": {
+              "clients": 1,
+              "distinct_entities": 0,
+              "entity_clients": 1,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/token/"
+              }
+            ],
+            "namespace_id": "8ByJp",
+            "namespace_path": "admin/"
+          }
+        ],
+        "new_clients": {
+          "counts": null,
+          "namespaces": null
+        },
+        "timestamp": "2023-07-01T00:00:00Z"
+      },
+      {
+        "counts": {
+          "clients": 1,
+          "distinct_entities": 0,
+          "entity_clients": 1,
+          "non_entity_clients": 0,
+          "non_entity_tokens": 0,
+          "secret_syncs": 0
+        },
+        "namespaces": [],
+        "new_clients": {
+          "counts": null,
+          "namespaces": null
+        },
+        "timestamp": "2023-08-01T00:00:00Z"
+      },
+      {
+        "counts": {
+          "clients": 4,
+          "distinct_entities": 0,
+          "entity_clients": 4,
+          "non_entity_clients": 0,
+          "non_entity_tokens": 0,
+          "secret_syncs": 0
+        },
+        "namespaces": [
+          {
+            "counts": {
+              "clients": 3,
+              "distinct_entities": 0,
+              "entity_clients": 3,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/token/"
+              },
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/userpass/"
+              },
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/okta_oidc/"
+              }
+            ],
+            "namespace_id": "8ByJp",
+            "namespace_path": "admin/"
+          }
+        ],
+        "new_clients": {
+          "counts": null,
+          "namespaces": null
+        },
+        "timestamp": "2023-09-01T00:00:00Z"
+      },
+      {
+        "counts": {
+          "clients": 2,
+          "distinct_entities": 0,
+          "entity_clients": 2,
+          "non_entity_clients": 0,
+          "non_entity_tokens": 0,
+          "secret_syncs": 0
+        },
+        "namespaces": [
+          {
+            "counts": {
+              "clients": 1,
+              "distinct_entities": 0,
+              "entity_clients": 1,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/token/"
+              }
+            ],
+            "namespace_id": "8ByJp",
+            "namespace_path": "admin/"
+          }
+        ],
+        "new_clients": {
+          "counts": null,
+          "namespaces": null
+        },
+        "timestamp": "2023-10-01T00:00:00Z"
+      },
+      {
+        "counts": {
+          "clients": 2,
+          "distinct_entities": 0,
+          "entity_clients": 2,
+          "non_entity_clients": 0,
+          "non_entity_tokens": 0,
+          "secret_syncs": 0
+        },
+        "namespaces": [
+          {
+            "counts": {
+              "clients": 1,
+              "distinct_entities": 0,
+              "entity_clients": 1,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/token/"
+              }
+            ],
+            "namespace_id": "8ByJp",
+            "namespace_path": "admin/"
+          }
+        ],
+        "new_clients": {
+          "counts": null,
+          "namespaces": null
+        },
+        "timestamp": "2023-11-01T00:00:00Z"
+      },
+      {
+        "counts": {
+          "clients": 2,
+          "distinct_entities": 0,
+          "entity_clients": 2,
+          "non_entity_clients": 0,
+          "non_entity_tokens": 0,
+          "secret_syncs": 0
+        },
+        "namespaces": [
+          {
+            "counts": {
+              "clients": 1,
+              "distinct_entities": 0,
+              "entity_clients": 1,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/token/"
+              }
+            ],
+            "namespace_id": "8ByJp",
+            "namespace_path": "admin/"
+          }
+        ],
+        "new_clients": {
+          "counts": null,
+          "namespaces": null
+        },
+        "timestamp": "2023-12-01T00:00:00Z"
+      },
+      {
+        "counts": {
+          "clients": 2,
+          "distinct_entities": 0,
+          "entity_clients": 2,
+          "non_entity_clients": 0,
+          "non_entity_tokens": 0,
+          "secret_syncs": 0
+        },
+        "namespaces": [
+          {
+            "counts": {
+              "clients": 1,
+              "distinct_entities": 0,
+              "entity_clients": 1,
+              "non_entity_clients": 0,
+              "non_entity_tokens": 0,
+              "secret_syncs": 0
+            },
+            "mounts": [
+              {
+                "counts": {
+                  "clients": 1,
+                  "distinct_entities": 0,
+                  "entity_clients": 1,
+                  "non_entity_clients": 0,
+                  "non_entity_tokens": 0,
+                  "secret_syncs": 0
+                },
+                "mount_path": "auth/token/"
+              }
+            ],
+            "namespace_id": "8ByJp",
+            "namespace_path": "admin/"
+          }
+        ],
+        "new_clients": {
+          "counts": null,
+          "namespaces": null
+        },
+        "timestamp": "2024-01-01T00:00:00Z"
+      }
+    ],
+    "start_time": "2023-02-20T12:05:03Z",
+    "total": {
+      "clients": 8,
+      "distinct_entities": 7,
+      "entity_clients": 7,
+      "non_entity_clients": 1,
+      "non_entity_tokens": 1,
+      "secret_syncs": 0
+    }
+  },
+  "warnings": null
+}

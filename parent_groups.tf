@@ -2,7 +2,7 @@ resource "vault_identity_group" "parent_admin" {
   name     = "parent_admin"
   namespace = vault_namespace.parent.path
   type     = "internal"
-  policies = ["default", "vault-admin-kms"]
+  policies = ["default", "ag_admin", "ab_admin", "gb_admin" ]
 
   metadata = {
     version = "2"

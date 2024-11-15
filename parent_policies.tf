@@ -28,8 +28,17 @@ resource "vault_policy" "vault-admin-kms" {
   policy    = file("${path.module}/policies/parent/vault-admin-kms.hcl")
 }
 
-# resource "vault_policy" "vault-admin-secrets" {
-#   name      = "vault-admin-secrets"
-#   namespace = vault_namespace.parent.path
-#   policy    = file("${path.module}/policies/parent/vault-admin-secrets.hcl")
-# }
+resource "vault_policy" "admin-per-namespace" {
+    for_each  = vault_namespace.children
+   namespace = vault_namespace.parent.path
+  name = "${each.value.path}_admin"
+  policy = <<EOT
+path "${each.value.path}/${each.value.path}_secrets" {
+  capabilities = ["read","update","list","create","delete","sudo"]
+}
+
+path "kv/*" {
+  capabilities = ["read","update","list","create","delete","sudo"]
+}
+EOT
+}

@@ -3,14 +3,14 @@ provider "vault" {}
 variable "child_namespaces" {
   type = set(string)
   default = [
-    "child_0",
-    "child_1",
-    "child_2",
+    "AB",
+    "AG",
+    "GB",
   ]
 }
 
 resource "vault_namespace" "parent" {
-  path = "parent"
+  path = "KMS"
 }
 
 resource "vault_namespace" "children" {
