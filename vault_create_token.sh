@@ -1,6 +1,6 @@
 vault token create -display-name=admin -entity-alias=tf_alias -role=test-role -namespace=admin/parent
 
- vault token lookup token from above
+vault token lookup token from above
 
 
 vault read auth/token/lookup-self
@@ -9,7 +9,7 @@ vault token create -display-name=admin -entity-alias=tf_alias -role=test-role -n
 
 vault token create -policy=admin-layer2-kms
 
-vault token create -namespace=KMS -policy=admin-layer2-kms -policy=vfag_admin -policy=vfab_admin -policy=vfgb_admin
+vault token create -namespace=KMS -policy=admin-layer2-kms -policy=ag_admin -policy=ab_admin -policy=gb_admin
 
 
 vault token create -namespace=kms -policy=admin-layer2-kms

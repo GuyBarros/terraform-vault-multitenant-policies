@@ -42,9 +42,9 @@ resource "vault_identity_group_alias" "jwt-group-alias2" {
 }
 
 
-resource "vault_identity_entity_alias" "jwt_user2" {
-    namespace = vault_namespace.parent.path
-  name            = var.identifier
-  mount_accessor  = vault_jwt_auth_backend.jwt2.accessor
-  canonical_id    = vault_identity_entity.jwt_user.id
-}
+# resource "vault_identity_entity_alias" "jwt_user2" {
+#     namespace = vault_namespace.parent.path
+#   name            = var.identifier
+#   mount_accessor  = vault_jwt_auth_backend.jwt2.accessor
+#   canonical_id    = vault_identity_entity.jwt_user.id
+# }
